@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Movie data entry</title>
+</head>
+<body>
+	<h1>Add new movie data</h1>
+	<form action="Add_servlet" method="post">
+		<table>
+
+			<tr>
+				<td>Movie ID</td>
+				<td><input type="number" name="movieId"></td>
+			</tr>
+			<tr>
+				<td>Movie Name</td>
+				<td><input type="text" name="moviename"></td>
+			</tr>
+			<tr>
+				<td>Actorss</td>
+				<td><input type="text" name="actor"></td>
+			</tr>
+			<tr>
+				<td>Actorsses List</td>
+				<td><input type="text" name="actresseslist"></td>
+			</tr>
+			<tr>
+				<td>Director Name</td>
+				<td><input type="text" name="directorname"></td>
+			</tr>
+			<tr>
+				<td>Rating out of 5</td>
+				<td><select name="rating">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Save movie">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<a href="/imdb/viewservlate">View Movie List</a>
+</body>
+</html>

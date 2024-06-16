@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add coin</title>
+</head>
+<body>
+	<form action="AddServlet" method="post">
+		<h2>My coin collection</h2>
+		<table>
+			<tr>
+				<td>Sr number</td>
+				<td><input type="number" name="sr_no"></td>
+			</tr>
+			<tr>
+				<td>Country Name</td>
+				<td><input type="text" name="countryName"></td>
+			</tr>
+			<tr>
+				<td>Denomination</td>
+				<td><input type="number" name="denomination"></td>
+			</tr>
+			<tr>
+				<td>Year of minting</td>
+				<td><input type="number" name="mintingYear"></td>
+			</tr>
+			<tr>
+				<td>Current value</td>
+				<td><input type="number" name="currentValue"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="Add Coin"></td>
+				<td><a href="AllCoinServlet">show all coins</a></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
