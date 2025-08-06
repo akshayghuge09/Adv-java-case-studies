@@ -19,11 +19,9 @@ src/main/java/com/cdac/
 │   ├── ApiResponse.java                     # Standardized API response wrapper
 │   ├── AuthRequest.java                     # Login request DTO
 │   ├── AuthResponse.java                    # Authentication response DTO
-│   ├── BaseDTO.java                        # Base DTO with common fields
 │   ├── UserReqDTO.java                     # User registration request DTO
 │   └── UserRespDTO.java                    # User response DTO
 ├── entities/
-│   ├── BaseEntity.java                      # Base entity with audit fields
 │   ├── UserEntity.java                      # User entity implementing UserDetails
 │   └── UserRole.java                        # User role enum
 ├── repository/
